@@ -12,3 +12,4 @@ Milstone 2 : Create map
 19th April : fix map
 20th April fix map
 MIlstone3 : create enemy
+22th April : Making Github again with following instruction. Create kill enemy
