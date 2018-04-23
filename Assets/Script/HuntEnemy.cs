@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HuntEnemy : MonoBehaviour {
-
+    public int damageToGive;
+    public GameObject damageBurst;
+    public Transform hitPoint;
 	// Use this for initialization
 	void Start () {
 		
@@ -16,9 +18,11 @@ public class HuntEnemy : MonoBehaviour {
 	}
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "Enemy")
+            Instantiate(damageBurst, hitPoint.position, hitPoint.rotation);
         {
-            Destroy(other.gameObject);
+            // Destroy(other.gameObject);
+            other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(damageToGive);
         }
     }
 }
