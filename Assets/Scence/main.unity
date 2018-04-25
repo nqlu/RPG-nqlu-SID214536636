@@ -3685,6 +3685,7 @@ GameObject:
   - component: {fileID: 1445434749}
   - component: {fileID: 1445434748}
   - component: {fileID: 1445434747}
+  - component: {fileID: 1445434751}
   m_Layer: 0
   m_Name: weapons_0
   m_TagString: Untagged
@@ -3703,12 +3704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e0846034c149d1448cf5bd8fdc68cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageToGive: 5
-  damageBurst: {fileID: 1729094712570860, guid: 6182f2eefaa0747428ba69278e804fd4,
-    type: 2}
-  hitPoint: {fileID: 953863501}
-  damageNumber: {fileID: 1024677370618772, guid: 0a838b8115e8a5e42ad6993446d88546,
-    type: 2}
 --- !u!61 &1445434748
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3792,6 +3787,23 @@ Transform:
   m_Father: {fileID: 1704675339}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1445434751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1445434746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16fe8c2afd4d016468eb430d9264860b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 5
+  damageBurst: {fileID: 1729094712570860, guid: 6182f2eefaa0747428ba69278e804fd4,
+    type: 2}
+  HitPoint: {fileID: 953863501}
+  damageNumber: {fileID: 1024677370618772, guid: 0a838b8115e8a5e42ad6993446d88546,
+    type: 2}
 --- !u!1 &1484853026
 GameObject:
   m_ObjectHideFlags: 0

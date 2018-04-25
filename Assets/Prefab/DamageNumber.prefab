@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 223448831893757012}
   - component: {fileID: 114874728936301106}
   - component: {fileID: 114410400558426794}
+  - component: {fileID: 114594230412858240}
   m_Layer: 5
   m_Name: DamageNumber
   m_TagString: Untagged
@@ -74,11 +75,11 @@ MonoBehaviour:
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 99
+  m_Text: 0
 --- !u!114 &114410400558426794
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,6 +96,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114594230412858240
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1024677370618772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bae621b60580f9f429d57445297ec050, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestroy: 0.5
 --- !u!114 &114874728936301106
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -176,6 +189,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2.08, y: 0.06}
   m_SizeDelta: {x: 25, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
