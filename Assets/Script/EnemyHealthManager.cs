@@ -7,11 +7,14 @@ public class EnemyHealthManager : MonoBehaviour
 
     public int MaxHealth;
     public int CurrentHealth;
+    private PlayerStat thePlayerStats;
+    public int expToGive;
 
     // Use this for initialization
     void Start()
     {
         CurrentHealth = MaxHealth;
+        thePlayerStats = FindObjectOfType<PlayerStat>();
     }
 
     // Update is called once per frame
@@ -19,7 +22,8 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (CurrentHealth <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject); // enemy will be kill
+            thePlayerStats.AddExperience(expToGive); // Add experince to chracter when enemy be killed
 
         }
 
