@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class HurtPlayer : MonoBehaviour {
     public int damageToGive;
-    private int currentDamage;
     public GameObject damageNumber;
-    private PlayerStat thePS;
     // Use this for initialization
     void Start() {
-        thePS = FindObjectOfType<PlayerStat>();
+
     }
 
     // Update is called once per frame
@@ -20,15 +18,11 @@ public class HurtPlayer : MonoBehaviour {
     {
         if (other.gameObject.name == "Player")
         {
-            currentDamage = damageToGive - thePS.currentDefence;
-            if(currentDamage < 0)
-            {
-                currentDamage = 0;
-            }
- other.gameObject.GetComponent<PlayerHealthsystem>().HurtPlayer(currentDamage);
+           
+ other.gameObject.GetComponent<PlayerHealthsystem>().HurtPlayer(damageToGive);
             var clone = (GameObject)Instantiate(damageNumber, other.transform.position, Quaternion.Euler(Vector3.zero));
 
-            clone.GetComponent<FloatNumber>().damageNumber = currentDamage;
+            clone.GetComponent<FloatNumber>().damageNumber = damageToGive;
         }
     }
 }
