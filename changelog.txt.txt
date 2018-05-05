@@ -1,37 +1,16 @@
 Milestone1 : Player movement and player amination 6days ( 1ours / day ) total 6hours
--1st April : Create project with character
-  + Character and basic map
--2nd April : Create detail of character
-  + Animation, contrller
--4th April : Create character movement
-  + Moving
--7th 8th April : Create character animation movement
-  + Animation when moving
-
+1st April : Create project with character
+2nd April : Create detail of character
+4th April : Create character movement
+7th April : Create character animation movement
+8th April : Create character animation movement
 Milstone 2 : Create map
--9th April : Update map
- + Create in Tile maps, use with Tile2Unity
--14th April : Fix Camera
- + Camera got problem
--15th APril : update map
- + Update more object
--17th APril : add more collision in map
-  + Update logic game collision
--19th April : fix map
- + Some issue need to fix
--20th April fix map
-+ Some issue need to fix
+9th April : Update map
+14th April : Fix Camera
+15th APril : update map
+17th APril : add more collision in map
+19th April : fix map
+20th April fix map
 MIlstone3 : create enemy
--22th April : Making Github again with following instruction. Create kill enemy
-  + Fix github with my deakin ID
-  + Create Enemy animation
-  + create health Enemy
-  + create killing enemy
--23th to 28 April : Create UI Feature
-  + Health of Character
-  + game effect
-  + Dialogue
-  29th April : Finish base game
-  + Quest
-  + Fix some current error
-  Milstone 4 : Improve game process and add stage/level to game
+22th April : Making Github again with following instruction. Create kill enemy
+23th 24 April : Create UI Feature
