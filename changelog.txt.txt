@@ -14,3 +14,14 @@ Milstone 2 : Create map
 MIlstone3 : create enemy
 22th April : Making Github again with following instruction. Create kill enemy
 23th 24 April : Create UI Feature
+25 to 30 April : Create Health Enemy system
+31st April Fix Everything relate Enemy
+Milstone 4 : Create Quest
+1st May : Create Dialog Quest
+2nd May: Create first logic quest
+3rd May more quest added
+Milstone 5 : Create more stage
+4th to 6th May : Create more stage added
+6th to 13th May : More quest add to stage
+Milstone 6 : Build in Android
+13th May : Build in Android and test game
