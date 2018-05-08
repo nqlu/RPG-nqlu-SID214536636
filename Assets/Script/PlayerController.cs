@@ -71,7 +71,7 @@ public class PlayerController : MonoBehaviour {
         {
             myRigidbody.velocity = new Vector2(myRigidbody.velocity.x, 0f);
         }
-        if (CrossPlatformInputManager.GetButton("Jump"))
+			if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             attackTimeCounter = attackTime;
             attacking = true;
